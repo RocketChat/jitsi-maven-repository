@@ -17,13 +17,13 @@ cd ..
 rm -rf jitsi-meet
 git clone https://github.com/jitsi/jitsi-meet
 
-# https://github.com/jitsi/jitsi-meet/releases/tag/android-sdk-2.10.0
-git checkout fc75d45c6cb16ac2e0917ba03da35342587c1d53
+cd jitsi-meet
+
+# https://github.com/jitsi/jitsi-meet/releases/tag/android-sdk-3.6.0
+git checkout f84f7332b9205652a7e9cd8772d05c6fd98e0329
 
 # We want a libre build!
 export LIBRE_BUILD=true
-
-cd jitsi-meet
 
 echo
 echo "##################################################"
